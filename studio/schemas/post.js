@@ -40,8 +40,7 @@ export default {
     {
       name: 'tags',
       title: 'Tags',
-      type: 'array',
-      of: [{type: 'reference', to: {type: 'tag'}}]
+      type: 'tags'
     },
     {
       name: 'publishedAt',
